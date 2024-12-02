@@ -3,37 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro Study Timer</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Pomodoro Study Timer</h1>
-    </header>
-    <main>
-        <section id="timer-section">
-            <h2>Timer</h2>
-            <div id="timer">
-                <span id="minutes">25</span>:<span id="seconds">00</span>
-            </div>
-            <div class="controls">
-                <button id="start-timer">Start</button>
-                <button id="pause-timer">Pause</button>
-                <button id="reset-timer">Reset</button>
-            </div>
-        </section>
-        <section id="reflection-section">
-            <h2>Reflection Prompt</h2>
+    <div class="container">
+        <h1>Academic Pomodoro Timer</h1>
+        <div class="timer">
+            <h2 id="time-display">25:00</h2>
+            <button id="start-button">Start</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <div class="reflection">
+            <h3>Reflection</h3>
             <textarea id="reflection-input" placeholder="What did you accomplish?"></textarea>
             <button id="submit-reflection">Submit</button>
-        </section>
-        <section id="task-section">
-            <h2>Task List</h2>
-            <ul id="task-list">
-                <li>Sample Task 1</li>
-                <li>Sample Task 2</li>
-            </ul>
-        </section>
-    </main>
+        </div>
+    </div>
+    <script>
+        // Placeholder for Java interaction (if needed later)
+    </script>
 </body>
 </html>
